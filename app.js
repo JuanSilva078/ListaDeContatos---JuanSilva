@@ -6,12 +6,12 @@ import {
 
 // ▼ PREENCHA COM SUAS CREDENCIAIS DO FIREBASE ▼
 const firebaseConfig = {
-  apiKey:            "SUA_API_KEY",
-  authDomain:        "SEU_PROJECT.firebaseapp.com",
-  projectId:         "SEU_PROJECT_ID",
-  storageBucket:     "SEU_PROJECT.appspot.com",
-  messagingSenderId: "SEU_SENDER_ID",
-  appId:             "SEU_APP_ID"
+  apiKey: "AIzaSyB5hbaSwa2_W_G-oD7IxpBLq9BTY5Ktff4",
+  authDomain: "listadecontatos-3d32e.firebaseapp.com",
+  projectId: "listadecontatos-3d32e",
+  storageBucket: "listadecontatos-3d32e.firebasestorage.app",
+  messagingSenderId: "998477768980",
+  appId: "1:998477768980:web:9da17aaea15cf204443a01"
 };
 // ▲ FIM DAS CREDENCIAIS ▲
 
