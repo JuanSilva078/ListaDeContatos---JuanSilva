@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerenciamento de Contatos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Gerenciamento de Contatos</h1>
+
+  <div id="msg"></div>
+
+  <!-- Busca -->
+  <div id="busca-section">
+    <div class="section-title">Busca</div>
+    <label>Nome:</label>
+    <input type="text" id="input-busca" placeholder="Digite o nome para busca." />
+    <button id="btn-buscar">Buscar</button>
+    &nbsp;
+    <button id="btn-novo">Novo</button>
+  </div>
+
+  <!-- Formulário -->
+  <div id="form-section">
+    <h2>Novo Contato</h2>
+    <div class="form-row">
+      <div class="field-nome">
+        <label>Nome:</label>
+        <input type="text" id="inp-nome" placeholder="Nome completo" />
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="field-small">
+        <label>Fone:</label>
+        <input type="text" id="inp-fone" placeholder="(00) 00000-0000" />
+      </div>
+      <div class="field-small">
+        <label>E-mail:</label>
+        <input type="email" id="inp-email" placeholder="email@exemplo.com" />
+      </div>
+      <div class="field-small">
+        <label>Aniversário:</label>
+        <input type="date" id="inp-data" />
+      </div>
+    </div>
+    <div class="form-actions">
+      <button id="btn-salvar">Salvar</button>
+      <button id="btn-cancelar">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- Tabela -->
+  <div id="tabela-section">
+    <table id="tabela">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Nome</th>
+          <th>Telefone</th>
+          <th>E-mail</th>
+          <th>Aniversário</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        <tr id="empty-row"><td colspan="6">Carregando...</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
